@@ -1,0 +1,111 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 994px) {
+    .personal_last_block {
+        margin-top: 35px;
+    }
+    .s_about ul, .s_about li {
+        text-align: center;
+    }
+    section h3 {
+        font-size: 19px;
+    }
+    .s_descr_wrap .s_descr {
+        font-size: 15px;
+    }
+    section h2 {
+        font-size: 34px;
+    }
+    .s_about p {
+        text-align: center;
+    }
+    .animated_left {
+        text-align: center;
+    }
+    /*.contact_box h3 {*/
+        /*text-align: center;*/
+    /*}*/
+    /*.contact_box {*/
+        /*text-align: center;*/
+    /*}*/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .resume_container .left {
+        text-align: center;
+    }
+    .resume_container .left h3 {
+        text-align: center;
+    }
+    .resume_container .right h3 {
+        text-align: center;
+    }
+    .resume_container .right {
+        text-align: center;
+    }
+    .resume_container h3 {
+        font-size: 34px;
+    }
+    .contact_box h3 {
+        text-align: center;
+    }
+    .contact_box {
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .name {
+        font-size: 36px
+    }
+    .my_footer .social_wrap {
+        margin-top: 35px;
+        float: none;
+        margin-left: -46px;
+    }
+    .my_footer {
+        text-align: center;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
